@@ -1,0 +1,141 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Razafindratsimba Harimbola Santatra Steve}}\\
+	Antananarivo, Madagascar $\cdot$ razafindratsimba34@gmail.com $\cdot$ +261 34 07 048 47 $\cdot$ https://harimbolasantatra.github.io/\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Université d\textquotesingle{}Antananarivo}\hfill Antananarivo\\
+Master 1 Systèmes Informatique et Electronique \hfill 2022 - En cours\\
+\vspace{2mm}
+\textbf{Université d\textquotesingle{}Antananarivo}\hfill Antananarivo\\
+Licence Physique des Systèmes et Signals \hfill 2019 - 2022\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Expérience Professionelle}
+\vspace{1mm}
+
+\textbf{Eqima Solutions} \hfill Ankorondrano, Antananarivo\\
+\textit{Administrateur Systèmes et Réseaux} \hfill Octobre 2023 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Déploiement d\textquotesingle{}application sur conteneur (LXD, Kubernetes) et sur serveur d\textquotesingle{}application Tomcat
+	\item Suivi de l\textquotesingle{}infrastructure sur Zabbix
+	\item Déploiement de machine virtuelle LXD/LXC
+	\item Gestion de configuration avec Ansible
+	\item Provisionnement de l’infrastructure avec Terraform
+\end{itemize}
+\textbf{Nirmine} \hfill Ankadivato, Antananarivo\\
+\textit{Stagiaire Développeur C\#/.NET} \hfill Novembre 2022 - Janvier 2023\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Développement d\textquotesingle{}applications web
+	\item Développement d\textquotesingle{}API
+\end{itemize}
+\textbf{BMOI} \hfill Antaninarenina, Antananarivo\\
+\textit{Stagiaire Administrateur Réseau} \hfill Avril 2022 - Juillet 2022\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Suivi de l\textquotesingle{}infrastructure et du réseau informatique sur Zabbix et Netflow Analyzer
+	\item Simulation du réseau sur Packet Tracer
+\end{itemize}
+
+\header{Compétences}
+\begin{tabular}{ l l }
+	Programmation:              & Python, C\#, Bash           \\
+	Conteneur et orchestration: & Docker, LXD/LXC, Kubernetes \\
+	IaC:                        & Terraform, Ansible          \\
+	Base de Données:           & MySQL/MariaDB               \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projets}
+{\textbf{Site - Recettes Cocktails}} {\sl React} \hfill https://grand-caramel-54fce9.netlify.app/\\
+Un site web, développé avec React, contenant plusieurs recettes de cocktails et de boissons.\\
+\vspace*{2mm}
+{\textbf{Group Chat}} {\sl Python, Django, CSS} \hfill https://group-chat-s9wl.onrender.com/\\
+Une application de chat en groupe, contenant plusieurs espace et utilisateurs\\
+\vspace*{2mm}
+{\textbf{EJBCA Terraform}} {\sl Terraform, Docker, Nginx, Ansible} \hfill https://github.com/HarimbolaSantatra/ejbca-terraform\\
+Un projèt utilisant Docker et Terraform pour déployer rapidement un PKI\\
+\vspace*{2mm}
+
+
+
+\ 
+\end{document}

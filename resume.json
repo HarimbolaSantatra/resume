@@ -1,0 +1,157 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Compétences",
+    "projects": "Projets",
+    "awards": "",
+    "education": "Education",
+    "work": "Expérience Professionelle"
+  },
+  "basics": {
+    "name": "Razafindratsimba Harimbola Santatra Steve",
+    "phone": "+261 34 07 048 47",
+    "website": "https://harimbolasantatra.github.io/",
+    "location": {
+      "address": "Antananarivo, Madagascar"
+    },
+    "email": "razafindratsimba34@gmail.com"
+  },
+  "education": [
+    {
+      "location": "Antananarivo",
+      "area": "Systèmes Informatique et Electronique",
+      "startDate": "2022",
+      "endDate": "En cours",
+      "gpa": "",
+      "institution": "Université d'Antananarivo",
+      "studyType": "Master 1"
+    },
+    {
+      "institution": "Université d'Antananarivo",
+      "location": "Antananarivo",
+      "studyType": "Licence",
+      "area": "Physique des Systèmes et Signals",
+      "startDate": "2019",
+      "endDate": "2022"
+    }
+  ],
+  "work": [
+    {
+      "company": "Eqima Solutions",
+      "location": "Ankorondrano, Antananarivo",
+      "website": "",
+      "startDate": "Octobre 2023",
+      "endDate": "Present",
+      "highlights": [
+        "Déploiement d'application sur conteneur (Docker, LXC) et sur serveur d'application Tomcat",
+        "Suivi de l'infrastructure sur Zabbix",
+        "Déploiement de machine virtuelle LXD/LXC",
+        "Gestion de configuration avec Ansible",
+        "Provisionnement de l’infrastructure avec Terraform"
+      ],
+      "position": "Administrateur Systèmes et Réseaux"
+    },
+    {
+      "highlights": [
+        "Développement d'applications web",
+        "Développement d'API"
+      ],
+      "company": "Nirmine",
+      "position": "Stagiaire Développeur C#/.NET",
+      "location": "Ankadivato, Antananarivo",
+      "startDate": "Novembre 2022",
+      "endDate": "Janvier 2023"
+    },
+    {
+      "highlights": [
+        "Suivi de l'infrastructure et du réseau informatique sur Zabbix et Netflow Analyzer",
+        "Simulation du réseau sur Packet Tracer"
+      ],
+      "company": "BMOI",
+      "location": "Antaninarenina, Antananarivo",
+      "position": "Stagiaire Administrateur Réseau",
+      "startDate": "Avril 2022",
+      "endDate": "Juillet 2022"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programmation",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C#",
+        "Bash"
+      ]
+    },
+    {
+      "keywords": [
+        "Docker",
+        "LXD/LXC",
+        "Kubernetes"
+      ],
+      "name": "Conteneur et orchestration"
+    },
+    {
+      "keywords": [
+        "Terraform",
+        "Ansible"
+      ],
+      "name": "IaC"
+    },
+    {
+      "keywords": [
+        "MySQL/MariaDB"
+      ],
+      "name": "Base de Données"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Un site web, développé avec React, contenant plusieurs recettes de cocktails et de boissons.",
+      "url": "https://grand-caramel-54fce9.netlify.app/",
+      "keywords": [
+        "React"
+      ],
+      "name": "Site - Recettes Cocktails"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Django",
+        "CSS"
+      ],
+      "name": "Group Chat",
+      "description": "Une application de chat en groupe, contenant plusieurs espace et utilisateurs",
+      "url": "https://group-chat-s9wl.onrender.com/"
+    },
+    {
+      "keywords": [
+        "Terraform",
+        "Docker",
+        "Nginx",
+        "Ansible"
+      ],
+      "url": "https://github.com/HarimbolaSantatra/ejbca-terraform",
+      "description": "Un projèt utilisant Docker et Terraform pour  déployer rapidement un PKI",
+      "name": "EJBCA Terraform"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
