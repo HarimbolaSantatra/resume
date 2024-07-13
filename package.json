@@ -2,12 +2,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "init": "resumed init",
-    "start": "resumed render resume.json --theme jsonresume-theme-even",
+    "make": "resumed render resume.json --theme jsonresume-theme-onepage-plus",
     "export": "node index.js"
   },
   "dependencies": {
-    "jsonresume-theme-even": "^0.22.0",
+    "jsonresume-theme-onepage-plus": "^1.0.1",
     "puppeteer": "^22.13.0",
     "resumed": "^3.0.1"
   }
