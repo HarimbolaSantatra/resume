@@ -44,17 +44,17 @@
       "endDate": "Present",
       "highlights": [
         "Déploiement d'application sur conteneur (Docker, LXC) et sur serveur d'application Tomcat",
-        "Suivi de l'infrastructure sur Zabbix",
+        "Suivi de l'infrastructure",
         "Déploiement de machine virtuelle LXD/LXC",
         "Gestion de configuration avec Ansible",
-        "Provisionnement de l’infrastructure avec Terraform"
+        "Provisionnement de l’infrastructure avec Terraform",
+        "Gestion de base de donnée"
       ],
       "position": "Administrateur Systèmes et Réseaux"
     },
     {
       "highlights": [
-        "Développement d'applications web",
-        "Développement d'API"
+        "Développement d'applications webs et de API"
       ],
       "company": "Nirmine",
       "position": "Stagiaire Développeur C#/.NET",
@@ -128,9 +128,7 @@
     {
       "keywords": [
         "Terraform",
-        "Docker",
-        "Nginx",
-        "Ansible"
+        "Docker"
       ],
       "url": "https://github.com/HarimbolaSantatra/ejbca-terraform",
       "description": "Un projèt utilisant Docker et Terraform pour  déployer rapidement un PKI",
@@ -148,8 +146,8 @@
   "sections": [
     "templates",
     "profile",
-    "education",
     "work",
+    "education",
     "skills",
     "projects",
     "awards"
