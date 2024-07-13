@@ -1,7 +1,6 @@
 # RESUME
-My personal resume using [jsonresume](https://jsonresume.org/) schema.
-
-LaTeX code generated at [resumake.io](https://resumake.io).
+Two personal resume using [jsonresume](https://jsonresume.org/) schema and LaTex ( generated at [resumake.io](https://resumake.io))
+Both are using different themes.
 
 ## Make change
 You will need to have `pdflatex` installed on your machine: `sudo apt-get install texlive-latex-base`.
