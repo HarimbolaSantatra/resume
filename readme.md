@@ -1,14 +1,6 @@
 # RESUME
-Two personal resume using [jsonresume](https://jsonresume.org/) schema and LaTex ( generated at [resumake.io](https://resumake.io))
-Both are using different themes.
+Here is my resume (CV) in pdf, LaTex and [jsonresume](https://jsonresume.org/) format.
 
-## Make change
-You will need to have `pdflatex` installed on your machine: `sudo apt-get install texlive-latex-base`.
+**QUICK DOWNLOAD**: [resume.pdf](https://raw.githubusercontent.com/HarimbolaSantatra/resume/link-test/resume.pdf)
 
-To generate a PDF from the LaTeX code:
-
-    pdflatex resume.tex
-
-## Features
-- [ ] Github Actions to deploy automatically to Github pages
-- [ ] French and English version
+For technical details, read [docs/index.md](docs/index.md).
