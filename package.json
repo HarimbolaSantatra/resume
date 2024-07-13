@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init": "resumed init",
+    "start": "resumed render resume.json --theme jsonresume-theme-even"
+  },
+  "dependencies": {
+    "jsonresume-theme-even": "^0.22.0",
+    "resumed": "^3.0.1"
+  }
+}
