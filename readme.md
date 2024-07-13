@@ -1,16 +1,14 @@
 # RESUME
-My personal resume.
+My personal resume using [jsonresume](https://jsonresume.org/) schema.
 
 LaTeX code generated at [resumake.io](https://resumake.io).
 
-## Usage
-You will need to have `pdflatex` installed on your machine.
+## Make change
+You will need to have `pdflatex` installed on your machine: `sudo apt-get install texlive-latex-base`.
 
-To generate a PDF from this LaTeX code, navigate to this folder in a terminal and run:
+To generate a PDF from the LaTeX code:
 
     pdflatex resume.tex
-
-Alternatively, you can use a site like [ShareLaTeX](https://sharelatex.com) to build and edit your LaTeX instead.
 
 ## Features
 - [ ] Github Actions to deploy automatically to Github pages
