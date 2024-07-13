@@ -1,4 +1,11 @@
 # RESUME
+## Theme
+I use [a fork](https://github.com/HarimbolaSantatra/jsonresume-theme-onepage-plus) of the [onepage-plus theme](https://github.com/vkcelik/jsonresume-theme-onepage-plus):
+Install it with:
+
+    cd node_modules/
+    git clone --branch url https://github.com/HarimbolaSantatra/jsonresume-theme-onepage-plus
+
 ## Download
 To get the resume
 - in pdf: [resume.pdf](resume.pdf)
