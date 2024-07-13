@@ -3,10 +3,12 @@
   "type": "module",
   "scripts": {
     "init": "resumed init",
-    "start": "resumed render resume.json --theme jsonresume-theme-even"
+    "start": "resumed render resume.json --theme jsonresume-theme-even",
+    "export": "node index.js"
   },
   "dependencies": {
     "jsonresume-theme-even": "^0.22.0",
+    "puppeteer": "^22.13.0",
     "resumed": "^3.0.1"
   }
 }
