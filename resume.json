@@ -3,7 +3,6 @@
   "headings": {
     "skills": "Compétences",
     "projects": "Projets",
-    "awards": "",
     "education": "Education",
     "work": "Expérience Professionelle"
   },
@@ -135,21 +134,12 @@
       "name": "EJBCA Terraform"
     }
   ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    }
-  ],
   "sections": [
     "templates",
     "profile",
     "work",
     "education",
     "skills",
-    "projects",
-    "awards"
+    "projects"
   ]
 }
